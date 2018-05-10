@@ -1,0 +1,100 @@
+/* header */
+#header .container{
+  background: none;
+  padding: 0;
+}
+#header {
+  height: 40px;
+  background-color: #dc2d1a;
+  padding: 5px 0;
+  position: relative;
+  color: #fff;
+  z-index: 10;
+}
+
+#header .goback {
+  position: absolute;
+  width: 1.8rem;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
+@media screen and (min-width:768px) {
+  #header .goback {
+    width: 1rem;
+  }
+}
+#header .goback a {
+  text-decoration: none;
+}
+
+#header .goback i {
+  font-size: 16px;
+  color: #fff;
+}
+
+#header .header-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  line-height: 40px;
+}
+
+/* lists */
+.lists{
+  position:  absolute;
+  z-index: 5;
+  left: 0;
+  right: 0;
+}
+.lists .bg{
+  background-color: #fff;
+}
+.lists ul{
+  padding: 10px;
+  margin: 0.1rem 0;
+  list-style: none;
+  display: -webkit-flex; /* Safari */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.lists li{
+  text-align: center;
+  flex-basis: 1.8rem;
+  flex-grow: 0;
+  padding: 0.1rem 0.05rem;
+  margin-bottom: 8px;
+  border: 1px solid #dc2d1a;
+  border-radius: 0.1rem;
+  font-size: 0.35rem;
+}
+@media screen and (min-width:700px) {
+  .lists li{
+    flex-basis: 1.8rem;
+    padding: 0.1rem 0;
+    font-size: 0.3rem;
+  }
+  .pullup i{
+    font-size: 0.2rem;
+  }
+}
+.pullup{
+  text-align: center;
+  color: #dc2d1a;
+}
+.pullup i{
+  font-size: 0.5rem;
+}
+/* .wrap */
+.wrap{
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(132, 129, 129, 0.7);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}

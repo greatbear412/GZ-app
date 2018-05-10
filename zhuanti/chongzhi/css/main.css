@@ -1,0 +1,376 @@
+body {
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* top */
+
+.top {
+  height: 250px;
+  background:url('../assets/topbg2.png') center;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../assets/topbg.png',sizingMethod='scale');
+}
+
+.top .title {
+  margin: auto;
+  padding: 20px 0;
+  height: 50px;
+  width: 375px;
+  position: relative;
+}
+
+.top .title i {
+  background-image: url('../assets/vip.png');
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../assets/vip.png', sizingMethod='scale');
+  width: 70px;
+  height: 60px;
+  display: inline-block;
+  background-size: cover;
+  margin-right: 5px;
+}
+
+.top .title span {
+  display: inline-block;
+  font-size: 45px;
+  font-weight: bold;
+  width: 280px;
+  color: #fff;
+}
+
+.top .list {
+  padding-top: 10px;
+  position: relative;
+  justify-content: space-around;
+  font-size: 0;
+  height: 70px;
+  vertical-align: middle;
+}
+
+.top .list div {
+  position: absolute;
+}
+
+.top .list1 {
+  left: 10%;
+}
+
+.top .list2 {
+  left: 30%;
+  top: 50px;
+}
+
+.top .list3 {
+  right: 30%;
+  top: 50px;
+}
+
+.top .list4 {
+  right: 10%;
+}
+
+.list1 i {
+  background-image: url('../assets/list1.jpg');
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../assets/list1.jpg', sizingMethod='scale');
+
+}
+
+.list2 i {
+  background-image: url('../assets/list2.jpg');
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../assets/list2.jpg', sizingMethod='scale');
+}
+
+.list3 i {
+  background-image: url('../assets/list3.jpg');
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../assets/list3.jpg', sizingMethod='scale');
+}
+
+.list4 i {
+  background-image: url('../assets/list4.jpg');
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../assets/list4.jpg', sizingMethod='scale');
+}
+
+.top i {
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  background-size: contain;
+  border-radius: 35px;
+}
+
+.top span {
+  font-size: 16px;
+  width: 70px;
+  white-space: normal;
+  display: inline-block;
+  height: 40px;
+  position: relative;
+  bottom: 15px;
+  color: #fff;
+  left: 10px;
+  font-weight: bold;
+}
+
+/* detail */
+
+.detail {
+  width: 100%;
+}
+
+.red {
+  color: red
+}
+
+.small {
+  font-size: 14px;
+}
+
+.detail .title {
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  padding: 40px 0;
+}
+
+.detail table {
+  border-collapse: collapse;
+  border-top: 1px solid #afabab;
+  border-bottom: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+  font-size: 20px
+}
+
+.detail th {
+  height: 80px;
+  padding: 0;
+  background-color: #d7d7d7;
+  border-bottom: 1px solid #afabab;
+  border-left: 1px solid #afabab;
+}
+
+.detail td {
+  height: 80px;
+  border-top: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+  width: 300px;
+  padding: 0;
+  text-align: center;
+}
+
+.detail i {
+  background-image: url('../assets/duigou.png');
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../assets/duigou.png', sizingMethod='scale');
+  width: 50px;
+  height: 45px;
+  display: inline-block;
+  background-size: cover;
+}
+
+/* activity */
+
+.activity {
+  height: 450px;
+}
+
+.activity .title {
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+  padding: 40px 0;
+}
+
+.activity .content {
+  position: relative;
+}
+
+.activity .content div {
+  width: 240px;
+  height: 230px;
+  position: absolute;
+  background-image: url('../assets/activity.png');
+  background-size: contain;
+  text-align: center;
+}
+
+.activity .item2 {
+  top: 100px;
+  left: 20%;
+}
+
+.activity .item3 {
+  left: 40%;
+}
+
+.activity .item4 {
+  top: 100px;
+  left: 60%
+}
+
+.activity .item5 {
+  left: 80%;
+}
+
+.activity i {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  background-size: cover;
+  position: absolute;
+  top: 30%;
+  left: 90px;
+}
+
+.activity .item1 i {
+  background-image: url('../assets/activity1.png');
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../assets/activity1.png', sizingMethod='scale');
+}
+
+.activity .item2 i {
+  background-image: url('../assets/activity2.png');
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../assets/activity2.png', sizingMethod='scale');
+}
+
+.activity .item3 i {
+  background-image: url('../assets/activity3.png');
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../assets/activity3.png', sizingMethod='scale');
+}
+
+.activity .item4 i {
+  background-image: url('../assets/activity4.png');
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../assets/activity4.png', sizingMethod='scale');
+}
+
+.activity .item5 i {
+  background-image: url('../assets/activity5.png');
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../assets/activity5.png', sizingMethod='scale');
+}
+
+.activity .content span {
+  position: relative;
+  top: 60%;
+  font-size: 18px;
+}
+
+.buy {
+  height: 400px;
+}
+
+.buy .container {
+  height: 250px;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.buy .container div {
+  position: absolute;
+  width: 380px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px 0 rgba(6, 6, 6, .07);
+  -webkit-box-shadow: 0 3px 10px 0 rgba(6, 6, 6, .07);
+  background-color: rgb(232, 230, 153);
+  cursor: pointer;
+
+}
+
+.buy .item1 {
+  left: 0;
+}
+
+.buy .item2 {
+  left: 33.3%;
+}
+
+.buy .item3 {
+  left: 66.6%;
+}
+
+.buy p{
+  margin: 0.5em 0;
+}
+.buy .price{
+  margin: 0;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  font-size: 80px;
+  color: rgb(255, 38, 38)
+}
+.buy .item1 .price{
+  left: 50px;
+}
+.buy .item2 .price{
+  left: 50px;
+}
+.buy .rmb{
+  font-size: 30px;
+}
+.buy .line1 {
+  font-size: 24px;
+  position: absolute;
+  right: 50px;
+  top: 30px;
+
+}
+
+.buy .line2 {
+  position: absolute;
+  right: 70px;
+  top: 80px;
+}
+
+.buy .line3 {
+  font-size: 24px;
+  position: absolute;
+  width: 250px;
+  right: 0;
+  left: 0;
+  top: 150px;
+  margin: 0 auto;
+}
+.buy .item3 .line1{
+  right: 30px;
+}
+.buy .item3 .line2{
+  right: 50px;
+}
+.buy .active{
+  border:2px solid rgb(255, 0, 0);
+}
+.buy .choosed{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  position: absolute;
+  background-image: url('../assets/choosed.png');
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../assets/choosed.png', sizingMethod='scale');
+  background-size: cover;
+  background-position: center;
+  z-index: 9;
+  left: 750px;
+  /* 350, 750,1150*/
+}
+.buy input {
+  position: relative;
+  top: 250px;
+  height: 50px;
+  width: 150px;
+  border: 1px solid #f1f2f1;
+  line-height: 50px;
+  border-radius: 8px;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: rgb(255, 42, 42);
+  color: #fff;
+  outline: none;
+}
+.buy .special{
+  font: 28px Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;
+  color: rgb(255, 23, 23)
+}

@@ -1,0 +1,104 @@
+
+<!DOCTYPE>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+  <title>频道页</title>
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/pindao.css">
+  <script src="http://www.vipzhuanli.com/js/jquery-1.9.1.min.js"></script>
+  <script src="../js/Remfix.js"></script>
+</head>
+
+<body>
+  <div id="header" class="fixed">
+    <div class="container">
+      <div class="goback"><a href="javascript:history.go(-1)"><i class="iconfont">&#xe624;</i></a></div>
+      <div class="header-title clearfix" id="header-title">
+        <div class="title">
+          电子信息
+          <i class="iconfont">&#xe601;</i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="lists main">
+    <div class="bg">
+      <div class="container">
+        <ul class="category">
+          <li><a href="#">电子信息</a></li>
+          <li><a href="#">机械制造</a></li>
+          <li><a href="#">新型材料</a></li>
+          <li><a href="#">电气自动化</a></li>
+          <li><a href="#">新能源</a></li>
+          <li><a href="#">安全防护</a></li>
+          <li><a href="#">环保资源</a></li>
+          <li><a href="#">轻工纺织</a></li>
+          <li><a href="#">生物医药</a></li>
+          <li><a href="#">包装印刷</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="pullup">
+      <i class="iconfont">&#xe61d;</i>
+    </div>
+  </div>
+  <div class="wrap" style="display:none">
+
+  </div>
+  <div class="edition container">
+    <a href="http://m.vipzhuanli.com" class="phone">
+      <div class="">
+        <i></i>
+        <span>触屏版</span>
+      </div>
+    </a>
+
+    <a href="http://www.vipzhuanli.com" class="pc">
+      <div>
+        <i></i>
+        <span>电脑版</span>
+      </div>
+    </a>
+  </div>
+  <div class="footer container">
+    <p>版权所有 高智科技（天津）有限公司</p>
+    <p>津公网安备 12019202000206号</p>
+    <p>津ICP备15000985号-1</p>
+  </div>
+  <footer id="fixed_footer">
+    <a href="~/index.html"><i class="iconfont">&#xe672;</i>首页</a>
+    <a href="~/tech/sell/list.html"><i class="iconfont">&#xe600;</i>分类</a>
+    <a href="~/patent/list.html"><i class="iconfont">&#xe62c;</i>查询</a>
+    <a href="~/info.html"><i class="iconfont">&#xe638;</i>我的</a>
+  </footer>
+  <div id="gotop"><i class="iconfont">&#xe66c;</i></div>
+  <script type="text/javascript" src="../js/main.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      goTop();
+      var u1 = document.getElementsByClassName('lists')[0];
+      var u2 = document.getElementById('header');
+      var h1 = -css(u1, 'height');
+      var h2 = -css(u2, 'height');
+      $(u1).css('top', h1 + h2 + 'px');
+      // 下拉
+      $('#header .title').on('click', function() {
+        move(u1, 'top', -h2);
+        $('.wrap').css('display', 'block');
+      });
+      // 上拉
+      $('.pullup').on('click', function() {
+        move(u1, 'top', h1 + h2);
+        $('.wrap').css('display', 'none');
+      });
+      $('.wrap').on('click', function() {
+        move(u1, 'top', h1 + h2);
+        $('.wrap').css('display', 'none');
+      });
+    })
+  </script>
+</body>

@@ -1,0 +1,364 @@
+/* 广告 */
+
+.gg_img {
+  width: 100%;
+}
+
+/* address */
+
+.address {
+  max-width: 620px;
+  padding: 5px 10px;
+  margin-bottom: 12px;
+}
+
+.address a {
+  text-decoration: none;
+  color: #000;
+}
+
+.address span {
+  font-size: 0.15rem;
+}
+
+.address i {
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+/* information */
+
+.information{
+  font-size: 0.28rem;
+}
+
+.information>div {
+  margin: 5px 0;
+}
+
+.information .title {
+  font-size: 0.4rem;
+}
+
+.information .number {
+  font-size: 0.4rem
+}
+
+.information .keywords {
+  margin-bottom: 0;
+}
+
+.information .fz {
+  width: 48%;
+}
+
+.information .fl,.information .clearfix{
+  line-height: 0.3rem;
+}
+
+@media screen and (max-width:319px) {
+  .information .fz {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width:520px) {
+  .information {
+    font-size: 0.28rem;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .information{
+    font-size: 0.2rem;
+  }
+  .information .title, .information .number {
+    font-size: 0.3rem;
+  }
+  .information .type {
+    font-size: 0.2rem;
+  }
+}
+/* vip */
+.vip button{
+  width: 100%;
+  background-color: #0ca5ff;
+  height: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  font-size:0.4rem;
+  color: #fff;
+  border: none;
+}
+/* trade */
+.trade{
+  font-size: 0.4rem;
+}
+.trade div{
+  margin-bottom: 0.2rem;
+}
+@media screen and (min-width:425px) {
+.trade{
+  font-size: 0.35rem;
+  }
+}
+/* detail */
+
+.detail .title {
+  font-size: 0.4rem;
+  line-height: 0.7rem;
+  height: 0.7rem;
+  text-align: center;
+  border-bottom: 1px solid #000;
+}
+
+.detail>div {
+  font-size: 0.3rem;
+  line-height: 0.45rem;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+}
+
+.detail>div:last-child {
+  border-bottom: none;
+}
+
+/* contact */
+
+.contact {
+  font-size: 0.3rem;
+  line-height: 0.45rem;
+}
+
+.contact>div {
+  border-bottom: 1px solid #8e8e8e;
+  padding-bottom: 3px;
+  margin: 5px 0;
+}
+
+/* turn */
+
+.turn {
+  font-size: 0.3rem;
+  line-height: 0.45rem;
+  z-index: auto;
+}
+
+.turn a {
+  text-decoration: none;
+  color: #000;
+}
+
+.turn i {
+  display: inline-block;
+  margin: 0 3px;
+  background-color: rgb(255, 71, 71);
+  width: 3px;
+  height: 0.3rem;
+  border-radius: 5px;
+  position: relative;
+  top: 1px;
+}
+
+.turn p:last-child {
+  padding: 10px 0;
+}
+
+@media screen and (min-width:570px) {
+  .detail p, .contact, .turn {
+    font-size: 0.25rem;
+    line-height: 0.35rem;
+  }
+  .turn i {
+    height: 0.2rem;
+  }
+}
+
+@media screen and (min-width:700px) {
+  .detail p, .contact, .turn {
+    font-size: 0.2rem;
+    line-height: 0.3rem;
+  }
+  .turn i {
+    height: 0.15rem;
+  }
+}
+
+/* btns */
+
+.btns {
+  height: 1.2rem;
+  background-color: transparent;
+  padding-top: 0;
+  background-color: rgb(251, 251, 251);
+  position: relative;
+}
+
+.btns a {
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  background-color: rgb(255, 68, 0);
+  border-radius: 8px;
+  width: 25%;
+  height: 0.7rem;
+  padding: 6px 10px;
+  text-align: center;
+}
+
+.btns .fix {
+  position: fixed;
+  bottom: 80px;
+  top: auto;
+}
+
+.btns span {
+  font-size: 0.4rem;
+  padding: 0 5px;
+  position: relative;
+  bottom: 5px;
+}
+
+.btns .download {
+  right: 20px;
+}
+.btns .collection i {
+  background-position: 0 0;
+
+}
+.btns .download i {
+  background-position: -0.6rem 3px;
+}
+
+.btns i {
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.6rem;
+  background-image: url('../assets/xiangqing/btns.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 5px;
+  position: relative;
+}
+
+@media screen and (max-width:310px) {
+  .btns a {
+    width: 15%;
+  }
+  .btns span {
+    font-size: 0.2rem;
+    padding: 0;
+    bottom: 1px;
+  }
+  .btns i {
+    width: 0.3rem;
+    height: 0.3rem;
+    margin: 0;
+  }
+  .btns .download i {
+    background-position: -0.3rem 3px;
+  }
+  .btns .download i {
+    top: 2px;
+  }
+}
+
+@media screen and (min-width:350px) {
+  .btns {
+    height: 1.1rem;
+  }
+}
+
+@media screen and (min-width:500px) {
+  .btns {
+    height: 0.9rem;
+  }
+  .btns a {
+    height: 0.5rem;
+  }
+  .btns i {
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+  .btns .download i {
+    background-position: -0.5rem 3px;
+  }
+}
+
+@media screen and (min-width:600px) {
+  .btns {
+    height: 0.71rem;
+  }
+  .btns a {
+    width: 1.3rem;
+  }
+  .btns span {
+    font-size: 0.3rem;
+  }
+  .btns i {
+    width: 0.4rem;
+    height: 0.4rem;
+  }
+  .btns .download i {
+    background-position: -0.4rem 3px;
+  }
+}
+
+/* page */
+
+.page {
+  text-align: center;
+  font-size: 0.4rem;
+  line-height: 0.5rem;
+  height: 0.5rem;
+}
+
+.page a {
+  text-decoration: none;
+  color: #000
+}
+
+.page .active {
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+}
+
+@media screen and (min-width:500px) {
+  .page {
+    font-size: 0.2rem;
+    line-height: 0.3rem;
+    height: 0.3rem;
+  }
+}
+
+#SOHUCS {
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+
+/* download */
+.download {
+  margin-top: 10px;
+  width: 100%;
+  background-color: #FF4400;
+  height: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  font-size:0.5rem;
+  color: #fff;
+  outline: none;
+  border: none;
+}
+.unable.download{
+  background-color: rgb(144, 143, 143);
+}
+@media screen and (min-width:500px) {
+  .download {
+    height: 0.7rem;
+  }
+}

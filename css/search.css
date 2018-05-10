@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 652413 */
+  src: url('//at.alicdn.com/t/font_652413_lt1w65c9u91thuxr.eot');
+  src: url('//at.alicdn.com/t/font_652413_lt1w65c9u91thuxr.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_652413_lt1w65c9u91thuxr.woff') format('woff'),
+  url('//at.alicdn.com/t/font_652413_lt1w65c9u91thuxr.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_652413_lt1w65c9u91thuxr.svg#iconfont') format('svg');
+}
+#header .header-title{
+  text-align: center;
+}
+#header .header-logo{
+  margin-left: 0;
+}
+
+/* search */
+.search{
+  text-align: center;
+  padding: 0.2rem 20px;
+}
+.search form{
+  display: flex;
+  justify-content: center;
+}
+.search input{
+  width: 70%;
+  height: 0.8rem;
+  padding-left: 0.1rem;
+  border: 1px solid #FF5124;
+  border-right: none;
+  border-radius: 0;
+}
+.search .searchbtn{
+  width: 25%;
+  height: 0.8rem;
+  margin: 0;
+  padding: 0;
+  background-color: #FF5124;
+  border: none;
+  color: #fff;
+
+}
+.search i{
+  margin: 0 3px;
+}
+
+/* sell */
+.sell{
+
+}
+.sell .title{
+  margin: 0.1rem 0 0.2rem 0;
+}
+.sell .title .td{
+  text-decoration: underline;
+}
+.sell .title a{
+  color: #ff5124;
+  display: flex;
+  align-items: center;
+}
+.sell .title i{
+  font-size: 0.1rem;
+}
+.sell .lists{
+  text-indent: 0.2rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.sell .lists i{
+  margin: 0 0.1rem;
+}

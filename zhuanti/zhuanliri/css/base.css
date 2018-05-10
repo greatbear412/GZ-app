@@ -1,0 +1,23 @@
+body,html {
+  font-family: 微软雅黑, Helvetica, sans-serif;
+  margin: 0;
+}
+body>div{
+  min-width: 1300px !important;
+}
+.container {
+  padding: 0;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.arrow {
+  border: 5px solid transparent;
+  border-left: 10px solid rgb(227, 253, 83);
+  width: 0;
+  height: 0;
+  font-size: 0;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 4px;
+}
